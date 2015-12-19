@@ -98,6 +98,7 @@ void Simon::ready() {
             difficulty = 29;
             break;
     }
+    Spark.publish("Game started");
     celebrate();
 }
 
